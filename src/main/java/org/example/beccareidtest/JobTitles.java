@@ -1,5 +1,8 @@
 package org.example.beccareidtest;
 
+/**
+ * Enum representing job titles.
+ */
 public enum JobTitles {
     ARCHITECT("Architect"),
     SOFTWARE_ENGINEER("Software Engineer"),
@@ -12,6 +15,11 @@ public enum JobTitles {
         this.jobTitle = jobTitle;
     }
 
+    /**
+     * Get the job title.
+     *
+     * @return the job title
+     */
     public String getJobTitle() {
         return jobTitle;
     }
